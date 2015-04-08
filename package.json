@@ -1,11 +1,11 @@
 {
   "name": "atom-header-switch",
   "main": "./lib/switch-header-source",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Quick switching between C/C++ header and source files",
-  "activationEvents": [
-    "switch-header-source:switch"
-  ],
+  "activationCommands": {
+  "atom-workspace": ["switch-header-source:switch"]
+  },
   "repository": "https://github.com/fromdemon/atom-header-switch",
   "license": "MIT",
   "engines": {
